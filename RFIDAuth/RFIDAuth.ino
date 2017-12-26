@@ -5,6 +5,7 @@ SoftwareSerial my(9, 10);
 char d, r[12], welcome[] = "RFID authentication system";
 int rcnt = 0;
 bool flag = false;
+// Enter your keys here
 char key[][12] = { "530095F66858", "1121212" };
 char userdata[][22] = { "Arun Baalaaji", "Abhijit" };
 void setup()
